@@ -12,13 +12,13 @@ apply plugin: "com.github.c64lib.retro-assembler"
 retroProject {
     dialect = "KickAssembler"
     dialectVersion = "5.24"
-    libDirs = [".ra/deps/c64lib"]
+    libDirs = [".ra/deps/c128lib"]
     srcDirs = ["."]
     excludes = ["**/_*.asm", ".ra/**/*", "libs/*"]
 
     // dependencies
-    libFromGitHub "c64lib/common", "0.3.0"
-    libFromGitHub "c64lib/chipset", "0.3.0"
+    libFromGitHub "c128lib/common", "0.4.0"
+    libFromGitHub "c128lib/chipset", "0.1.0"
 }
 
 // preprocess {
