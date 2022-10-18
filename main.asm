@@ -23,5 +23,4 @@ Entry: {
     rts
 }
 
-#import "./common/lib/common.asm"
 #import "./common/lib/common-global.asm"
